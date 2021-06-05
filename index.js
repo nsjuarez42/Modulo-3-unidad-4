@@ -1,7 +1,7 @@
 const express = require('express');
 const mysql = require('mysql');
-const post= require('./post').post;
-const get  = require('./get').get
+const {post}= require('./post');
+const {get}  = require('./get');
 
 const tableName = 'libros'
 exports.tableName = tableName;
